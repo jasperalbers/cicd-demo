@@ -1,5 +1,7 @@
 # app.py
 def add_numbers(a, b):
+    x = a - b
+    print(f"FYI, a - b yields {x}")
     return a + b
 
 
